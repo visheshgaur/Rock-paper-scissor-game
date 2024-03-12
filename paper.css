@@ -1,0 +1,80 @@
+body{
+     background-color:#0c2d57
+}
+.but{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    gap:2rem;
+    margin-top:15%;
+
+}
+.bit{
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    border-color:#FC6736;
+    border-width:5px;
+    font-size:45px;
+    animation:spin 1s infinite;
+}
+@keyframes spin{
+0%{
+    rotate:0deg;
+}
+100%{
+rotate: 360deg;
+}
+}
+.bit:hover{
+   cursor:pointer;
+    background-color:black;
+}
+#heading{
+    padding-left:35%;
+    color:#FC6736;
+    font-size:30px;
+    font-family:'Times New Roman', Times, serif;
+    
+    background-color:#EFECEC;
+}
+.scoring{
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    gap:3rem;
+    color:#fc6736;
+    font-size:20px;
+}
+h3{
+    display:flex;
+justify-content:center;
+align-items: center;
+font-size:25px;
+color:#ffb0b0;
+width:40%;
+margin-left:450px;
+
+
+
+}
+p{
+   color:#FC6736;
+   margin-left:47%;
+   word-spacing: 16px;
+}
+#btn{
+    color:#fc6736;
+    border-color:#FC6736;
+    border-radius:10px;
+    margin-left:47%;
+    height:30px;
+    width:70px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:20px;
+}
+#btn:hover{
+    background-color:black;
+    cursor:pointer;
+
+}
